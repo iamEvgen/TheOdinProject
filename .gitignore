@@ -1,0 +1,9 @@
+.gitattributes
+.gitignore
+/.vscode/
+/.idea/
+/.venv/
+/venv/
+__pycache__
+config.py
+test.py
