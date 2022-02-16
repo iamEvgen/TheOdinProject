@@ -1,0 +1,17 @@
+body {
+    width: 700px;
+}
+
+
+h1 {
+    background-color: red;
+}
+
+p {
+    background-color: yellow;
+}
+
+ul {
+    background-color: green;
+    color: white;
+}
