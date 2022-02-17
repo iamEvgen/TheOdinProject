@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, .header-title {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 900px
+}
+
+.header-container a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header .menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header-title-container {
+    display: flex;
+    margin: 72px 0;
+    flex-basis: 900px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.titletext {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 10px 10px 10px 0;
+}
+
+.header-title img {
+    width: 430px;
+}
+
+.titlemodule {
+    flex: 0 1 50%;
+}
+
+.img-class {
+    flex: 0 5 50%;
+}
+
+.titlemodule button {
+    background-color: #3882f3;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.enemies h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+    color: #6b6b6b
+}
+
+.card img {
+    width: inherit;
+    margin-bottom: 10px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.enemies {
+    margin-bottom: 50px;
+}
+
+.blockquote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockquote-container {
+    flex-basis: 900px;
+    padding: 70px 0;
+    max-width: 600px;
+}
+
+.blockquote-container .text{
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.blockquote-container .autor {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-container {
+    margin: 70px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    flex-basis: 900px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+}
+
+.action-container .title {
+    font-size: 24px;
+}
+
+.action-container .subtext {
+    padding: 5px 0 0 0;
+}
+
+.action-container button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 25px;
+}
