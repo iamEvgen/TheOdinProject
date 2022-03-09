@@ -1,10 +1,14 @@
-function ask(question, yes, no) {
-    if (confirm(question)) yes()
-    else no();
+let number = +prompt('Введите число:');
+let text = ''
+
+for (let i = 1; i < number + 1; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        text += `${i}: FizzBuzz\n`;
+    } else if (i % 3 === 0) {
+        text += `${i}: Fizz\n`;
+    } else if (i % 5 === 0) {
+        text += `${i}: Buzz\n`;
+    }
 }
 
-ask(
-    "Вы согласны?",
-    function() { alert("Вы согласились."); },
-    function() { alert("Вы отменили выполнение."); }
-);
+alert(text);
