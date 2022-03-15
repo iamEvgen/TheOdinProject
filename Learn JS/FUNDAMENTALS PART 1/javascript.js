@@ -1,14 +1,20 @@
-let number = +prompt('Введите число:');
-let text = ''
+let number = prompt('Введите число:');
+result = [];
 
-for (let i = 1; i < number + 1; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
-        text += `${i}: FizzBuzz\n`;
-    } else if (i % 3 === 0) {
-        text += `${i}: Fizz\n`;
-    } else if (i % 5 === 0) {
-        text += `${i}: Buzz\n`;
+
+function check_simple(number) {
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+for (let i = 2; i < number; i++) {
+    if (check_simple(i)) {
+        result.push(i);
     }
 }
 
-alert(text);
+alert(result);
